@@ -1,0 +1,108 @@
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1.5em;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 3em;
+  overflow-y: scroll;
+  height: 250px;
+  display: block;
+}
+
+th {
+  border: 1px solid #c9c8c8;
+  text-align: center;
+  padding: 10px;
+  background-color: #d7e0fc;
+  min-width: 8em;
+}
+
+tr:nth-child(even) {
+  border: 1px solid #c9c8c8;
+  background-color: #fdfdf3;
+}
+
+tr:nth-child(odd) {
+  border: 1px solid #c9c8c8;
+}
+
+tr:first-child th { position: sticky; top: 0; }
+
+.custom-select {
+  max-width: 200px;
+  height: fit-content;
+  background-color: #bfcffe;
+  color: rgb(43, 43, 43);
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 7px;
+  border: none;
+  border-color: transparent;
+}
+
+/* CSS */
+.custom-button {
+  background-color: #bfcffe;
+  border: 1px solid #d5d9d9;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.custom-button:hover {
+  background-color: #dbe0fd;
+}
+
+.custom-button:focus {
+  border-color: #df8ffe;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.custom-input {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  /* border-radius: 8px; */
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.custom-input:focus {
+  border-color: #df8ffe;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
